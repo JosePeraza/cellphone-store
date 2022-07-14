@@ -1,11 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export const CategoryPreviewContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  padding: 20px 40px;
 `;
 
 export const Title = styled(Link)`
